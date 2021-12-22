@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "U2sUbwfaFHO+7vGfNiCBirNl9mVDhgLwx6Zg8Ls7G8jc4ZvTIiWWVoayLMlKRcrvbfYK8N80zv7O1mcGgb3mHw==",
+  "dgSpecHash": "OmJ+OXDDoTSooMugHXmb6Gb5IxKHwZzwo03fEMWW2N0LscRKUNx7Sq8zAP6jQDVFs93QPt6o+zGiSzlAC7yUVg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\90535\\Desktop\\Yeni klasör (5)\\McvWebUI\\MvcWebUI.csproj",
+  "projectFilePath": "C:\\Users\\90535\\Desktop\\EditWork\\McvWebUI\\MvcWebUI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\90535\\.nuget\\packages\\bootstrap\\4.6.0\\bootstrap.4.6.0.nupkg.sha512",
     "C:\\Users\\90535\\.nuget\\packages\\entityframework\\6.4.4\\entityframework.6.4.4.nupkg.sha512",

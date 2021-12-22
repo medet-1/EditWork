@@ -60,12 +60,9 @@
 
             <div class="mb-3">
                 <label asp-for="Deleted"></label>
-                <input type="checkbox" asp-for="Deleted" class="form-control" value="@Model.Deleted" />
+                <input type="text" asp-for="Deleted" class="form-control" value="@Model.Deleted" />
                 <span asp-validation-for="Deleted" class="text-danger"></span>
             </div>
-
-
-
 
             <button id="guncelle" type="submit" class="btn btn-primary">Submit</button>
         </div>
@@ -73,7 +70,7 @@
 
         </div>
         <div class="col-md-4">
-            
+
             <span asp-validation-for="TeamId" class="text-danger"></span>
         </div>
     </div>
@@ -95,3 +92,4 @@
         });
     });
 </script>
+

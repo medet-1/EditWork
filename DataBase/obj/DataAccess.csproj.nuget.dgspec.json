@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\90535\\Desktop\\Yeni klasör (5)\\DataBase\\DataAccess.csproj": {}
+    "C:\\Users\\90535\\Desktop\\EditWork\\DataBase\\DataAccess.csproj": {}
   },
   "projects": {
-    "C:\\Users\\90535\\Desktop\\Yeni klasör (5)\\Core\\Core.csproj": {
+    "C:\\Users\\90535\\Desktop\\EditWork\\Core\\Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\90535\\Desktop\\Yeni klasör (5)\\Core\\Core.csproj",
+        "projectUniqueName": "C:\\Users\\90535\\Desktop\\EditWork\\Core\\Core.csproj",
         "projectName": "Core",
-        "projectPath": "C:\\Users\\90535\\Desktop\\Yeni klasör (5)\\Core\\Core.csproj",
+        "projectPath": "C:\\Users\\90535\\Desktop\\EditWork\\Core\\Core.csproj",
         "packagesPath": "C:\\Users\\90535\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\90535\\Desktop\\Yeni klasör (5)\\Core\\obj\\",
+        "outputPath": "C:\\Users\\90535\\Desktop\\EditWork\\Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -78,14 +78,14 @@
         }
       }
     },
-    "C:\\Users\\90535\\Desktop\\Yeni klasör (5)\\DataBase\\DataAccess.csproj": {
+    "C:\\Users\\90535\\Desktop\\EditWork\\DataBase\\DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\90535\\Desktop\\Yeni klasör (5)\\DataBase\\DataAccess.csproj",
+        "projectUniqueName": "C:\\Users\\90535\\Desktop\\EditWork\\DataBase\\DataAccess.csproj",
         "projectName": "DataAccess",
-        "projectPath": "C:\\Users\\90535\\Desktop\\Yeni klasör (5)\\DataBase\\DataAccess.csproj",
+        "projectPath": "C:\\Users\\90535\\Desktop\\EditWork\\DataBase\\DataAccess.csproj",
         "packagesPath": "C:\\Users\\90535\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\90535\\Desktop\\Yeni klasör (5)\\DataBase\\obj\\",
+        "outputPath": "C:\\Users\\90535\\Desktop\\EditWork\\DataBase\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -108,11 +108,11 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\90535\\Desktop\\Yeni klasör (5)\\Core\\Core.csproj": {
-                "projectPath": "C:\\Users\\90535\\Desktop\\Yeni klasör (5)\\Core\\Core.csproj"
+              "C:\\Users\\90535\\Desktop\\EditWork\\Core\\Core.csproj": {
+                "projectPath": "C:\\Users\\90535\\Desktop\\EditWork\\Core\\Core.csproj"
               },
-              "C:\\Users\\90535\\Desktop\\Yeni klasör (5)\\Entities\\Entities.csproj": {
-                "projectPath": "C:\\Users\\90535\\Desktop\\Yeni klasör (5)\\Entities\\Entities.csproj"
+              "C:\\Users\\90535\\Desktop\\EditWork\\Entities\\Entities.csproj": {
+                "projectPath": "C:\\Users\\90535\\Desktop\\EditWork\\Entities\\Entities.csproj"
               }
             }
           }
@@ -163,14 +163,14 @@
         }
       }
     },
-    "C:\\Users\\90535\\Desktop\\Yeni klasör (5)\\Entities\\Entities.csproj": {
+    "C:\\Users\\90535\\Desktop\\EditWork\\Entities\\Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\90535\\Desktop\\Yeni klasör (5)\\Entities\\Entities.csproj",
+        "projectUniqueName": "C:\\Users\\90535\\Desktop\\EditWork\\Entities\\Entities.csproj",
         "projectName": "Entities",
-        "projectPath": "C:\\Users\\90535\\Desktop\\Yeni klasör (5)\\Entities\\Entities.csproj",
+        "projectPath": "C:\\Users\\90535\\Desktop\\EditWork\\Entities\\Entities.csproj",
         "packagesPath": "C:\\Users\\90535\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\90535\\Desktop\\Yeni klasör (5)\\Entities\\obj\\",
+        "outputPath": "C:\\Users\\90535\\Desktop\\EditWork\\Entities\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -193,8 +193,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\90535\\Desktop\\Yeni klasör (5)\\Core\\Core.csproj": {
-                "projectPath": "C:\\Users\\90535\\Desktop\\Yeni klasör (5)\\Core\\Core.csproj"
+              "C:\\Users\\90535\\Desktop\\EditWork\\Core\\Core.csproj": {
+                "projectPath": "C:\\Users\\90535\\Desktop\\EditWork\\Core\\Core.csproj"
               }
             }
           }

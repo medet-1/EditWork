@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "SBHlgYerq5aZM2ZhNFsC3eRaKDhg3gMya7ERS3HhYY7pcVD9nHe5avQmqFM5gXiPW6emTETn3ZJR4FsqAyOwFw==",
+  "dgSpecHash": "nItwl2VwRxuyRWak8Diisua16v6HsCkMClB72kYhpF+SrFjYe3Bm3Lxd1LXPBWpm8VvDCy8JbO0wGD06ln3AMg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\90535\\Desktop\\Yeni klasör (5)\\Core\\Core.csproj",
+  "projectFilePath": "C:\\Users\\90535\\Desktop\\EditWork\\Core\\Core.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\90535\\.nuget\\packages\\entityframework\\6.4.4\\entityframework.6.4.4.nupkg.sha512",
     "C:\\Users\\90535\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "4wjF3CMyk2e5D1V/SzNOlPokHjMYwjDr4tz98Hrm4nX6+fXv5HxEdHrQXREJKCqA+6t48n6+8G/VaXcQo6HvJA==",
+  "dgSpecHash": "6dqpEaxxO0h5JIqv4LYEQTILhkJ6Je9pAIlPVBs3AJO7ogUEanO8Qk0lajIOtFx4kocRfVIIh1lxGu3X3q0k4g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\90535\\Desktop\\Yeni klasör (5)\\DataBase\\DataAccess.csproj",
+  "projectFilePath": "C:\\Users\\90535\\Desktop\\EditWork\\DataBase\\DataAccess.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\90535\\.nuget\\packages\\entityframework\\6.4.4\\entityframework.6.4.4.nupkg.sha512",
     "C:\\Users\\90535\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
