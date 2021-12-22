@@ -1,0 +1,89 @@
+C:\Users\90535\source\repos\17.11\DataBase\bin\Debug\netcoreapp3.1\DataAccess.deps.json
+C:\Users\90535\source\repos\17.11\DataBase\bin\Debug\netcoreapp3.1\DataAccess.runtimeconfig.json
+C:\Users\90535\source\repos\17.11\DataBase\bin\Debug\netcoreapp3.1\DataAccess.runtimeconfig.dev.json
+C:\Users\90535\source\repos\17.11\DataBase\bin\Debug\netcoreapp3.1\DataAccess.dll
+C:\Users\90535\source\repos\17.11\DataBase\bin\Debug\netcoreapp3.1\DataAccess.pdb
+C:\Users\90535\source\repos\17.11\DataBase\bin\Debug\netcoreapp3.1\Core.dll
+C:\Users\90535\source\repos\17.11\DataBase\bin\Debug\netcoreapp3.1\Entities.dll
+C:\Users\90535\source\repos\17.11\DataBase\bin\Debug\netcoreapp3.1\Core.pdb
+C:\Users\90535\source\repos\17.11\DataBase\bin\Debug\netcoreapp3.1\Entities.pdb
+C:\Users\90535\source\repos\17.11\DataBase\obj\Debug\netcoreapp3.1\DataAccess.csproj.AssemblyReference.cache
+C:\Users\90535\source\repos\17.11\DataBase\obj\Debug\netcoreapp3.1\DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\90535\source\repos\17.11\DataBase\obj\Debug\netcoreapp3.1\DataAccess.AssemblyInfoInputs.cache
+C:\Users\90535\source\repos\17.11\DataBase\obj\Debug\netcoreapp3.1\DataAccess.AssemblyInfo.cs
+C:\Users\90535\source\repos\17.11\DataBase\obj\Debug\netcoreapp3.1\DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\90535\source\repos\17.11\DataBase\obj\Debug\netcoreapp3.1\DataAccess.dll
+C:\Users\90535\source\repos\17.11\DataBase\obj\Debug\netcoreapp3.1\DataAccess.pdb
+C:\Users\90535\source\repos\17.11\DataBase\obj\Debug\netcoreapp3.1\DataAccess.genruntimeconfig.cache
+C:\Users\90535\source\repos\17.11\DataBase\obj\Debug\netcoreapp3.1\DataAccess.csproj.CopyComplete
+C:\Users\90535\Desktop\17.11\DataBase\bin\Debug\netcoreapp3.1\DataAccess.deps.json
+C:\Users\90535\Desktop\17.11\DataBase\bin\Debug\netcoreapp3.1\DataAccess.runtimeconfig.json
+C:\Users\90535\Desktop\17.11\DataBase\bin\Debug\netcoreapp3.1\DataAccess.runtimeconfig.dev.json
+C:\Users\90535\Desktop\17.11\DataBase\bin\Debug\netcoreapp3.1\DataAccess.dll
+C:\Users\90535\Desktop\17.11\DataBase\bin\Debug\netcoreapp3.1\DataAccess.pdb
+C:\Users\90535\Desktop\17.11\DataBase\bin\Debug\netcoreapp3.1\Core.dll
+C:\Users\90535\Desktop\17.11\DataBase\bin\Debug\netcoreapp3.1\Entities.dll
+C:\Users\90535\Desktop\17.11\DataBase\bin\Debug\netcoreapp3.1\Core.pdb
+C:\Users\90535\Desktop\17.11\DataBase\bin\Debug\netcoreapp3.1\Entities.pdb
+C:\Users\90535\Desktop\17.11\DataBase\obj\Debug\netcoreapp3.1\DataAccess.csproj.AssemblyReference.cache
+C:\Users\90535\Desktop\17.11\DataBase\obj\Debug\netcoreapp3.1\DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\90535\Desktop\17.11\DataBase\obj\Debug\netcoreapp3.1\DataAccess.AssemblyInfoInputs.cache
+C:\Users\90535\Desktop\17.11\DataBase\obj\Debug\netcoreapp3.1\DataAccess.AssemblyInfo.cs
+C:\Users\90535\Desktop\17.11\DataBase\obj\Debug\netcoreapp3.1\DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\90535\Desktop\17.11\DataBase\obj\Debug\netcoreapp3.1\DataAccess.dll
+C:\Users\90535\Desktop\17.11\DataBase\obj\Debug\netcoreapp3.1\DataAccess.pdb
+C:\Users\90535\Desktop\17.11\DataBase\obj\Debug\netcoreapp3.1\DataAccess.genruntimeconfig.cache
+C:\Users\90535\Desktop\Yeni klasör\DataBase\bin\Debug\netcoreapp3.1\DataAccess.deps.json
+C:\Users\90535\Desktop\Yeni klasör\DataBase\bin\Debug\netcoreapp3.1\DataAccess.runtimeconfig.json
+C:\Users\90535\Desktop\Yeni klasör\DataBase\bin\Debug\netcoreapp3.1\DataAccess.runtimeconfig.dev.json
+C:\Users\90535\Desktop\Yeni klasör\DataBase\bin\Debug\netcoreapp3.1\DataAccess.dll
+C:\Users\90535\Desktop\Yeni klasör\DataBase\bin\Debug\netcoreapp3.1\DataAccess.pdb
+C:\Users\90535\Desktop\Yeni klasör\DataBase\bin\Debug\netcoreapp3.1\Core.dll
+C:\Users\90535\Desktop\Yeni klasör\DataBase\bin\Debug\netcoreapp3.1\Entities.dll
+C:\Users\90535\Desktop\Yeni klasör\DataBase\bin\Debug\netcoreapp3.1\Core.pdb
+C:\Users\90535\Desktop\Yeni klasör\DataBase\bin\Debug\netcoreapp3.1\Entities.pdb
+C:\Users\90535\Desktop\Yeni klasör\DataBase\obj\Debug\netcoreapp3.1\DataAccess.csproj.AssemblyReference.cache
+C:\Users\90535\Desktop\Yeni klasör\DataBase\obj\Debug\netcoreapp3.1\DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\90535\Desktop\Yeni klasör\DataBase\obj\Debug\netcoreapp3.1\DataAccess.AssemblyInfoInputs.cache
+C:\Users\90535\Desktop\Yeni klasör\DataBase\obj\Debug\netcoreapp3.1\DataAccess.AssemblyInfo.cs
+C:\Users\90535\Desktop\Yeni klasör\DataBase\obj\Debug\netcoreapp3.1\DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\90535\Desktop\Yeni klasör\DataBase\obj\Debug\netcoreapp3.1\DataAccess.dll
+C:\Users\90535\Desktop\Yeni klasör\DataBase\obj\Debug\netcoreapp3.1\DataAccess.pdb
+C:\Users\90535\Desktop\Yeni klasör\DataBase\obj\Debug\netcoreapp3.1\DataAccess.genruntimeconfig.cache
+C:\Users\90535\Desktop\Work-main\DataBase\bin\Debug\netcoreapp3.1\DataAccess.deps.json
+C:\Users\90535\Desktop\Work-main\DataBase\bin\Debug\netcoreapp3.1\DataAccess.runtimeconfig.json
+C:\Users\90535\Desktop\Work-main\DataBase\bin\Debug\netcoreapp3.1\DataAccess.runtimeconfig.dev.json
+C:\Users\90535\Desktop\Work-main\DataBase\bin\Debug\netcoreapp3.1\DataAccess.dll
+C:\Users\90535\Desktop\Work-main\DataBase\bin\Debug\netcoreapp3.1\DataAccess.pdb
+C:\Users\90535\Desktop\Work-main\DataBase\bin\Debug\netcoreapp3.1\Core.dll
+C:\Users\90535\Desktop\Work-main\DataBase\bin\Debug\netcoreapp3.1\Entities.dll
+C:\Users\90535\Desktop\Work-main\DataBase\bin\Debug\netcoreapp3.1\Core.pdb
+C:\Users\90535\Desktop\Work-main\DataBase\bin\Debug\netcoreapp3.1\Entities.pdb
+C:\Users\90535\Desktop\Work-main\DataBase\obj\Debug\netcoreapp3.1\DataAccess.csproj.AssemblyReference.cache
+C:\Users\90535\Desktop\Work-main\DataBase\obj\Debug\netcoreapp3.1\DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\90535\Desktop\Work-main\DataBase\obj\Debug\netcoreapp3.1\DataAccess.AssemblyInfoInputs.cache
+C:\Users\90535\Desktop\Work-main\DataBase\obj\Debug\netcoreapp3.1\DataAccess.AssemblyInfo.cs
+C:\Users\90535\Desktop\Work-main\DataBase\obj\Debug\netcoreapp3.1\DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\90535\Desktop\Work-main\DataBase\obj\Debug\netcoreapp3.1\DataAccess.csproj.CopyComplete
+C:\Users\90535\Desktop\Work-main\DataBase\obj\Debug\netcoreapp3.1\DataAccess.dll
+C:\Users\90535\Desktop\Work-main\DataBase\obj\Debug\netcoreapp3.1\DataAccess.pdb
+C:\Users\90535\Desktop\Work-main\DataBase\obj\Debug\netcoreapp3.1\DataAccess.genruntimeconfig.cache
+C:\Users\90535\Desktop\17.11\DataBase\obj\Debug\netcoreapp3.1\DataAccess.csproj.CopyComplete
+C:\Users\90535\Desktop\Yeni klasör (5)\DataBase\bin\Debug\netcoreapp3.1\DataAccess.deps.json
+C:\Users\90535\Desktop\Yeni klasör (5)\DataBase\bin\Debug\netcoreapp3.1\DataAccess.runtimeconfig.json
+C:\Users\90535\Desktop\Yeni klasör (5)\DataBase\bin\Debug\netcoreapp3.1\DataAccess.runtimeconfig.dev.json
+C:\Users\90535\Desktop\Yeni klasör (5)\DataBase\bin\Debug\netcoreapp3.1\DataAccess.dll
+C:\Users\90535\Desktop\Yeni klasör (5)\DataBase\bin\Debug\netcoreapp3.1\DataAccess.pdb
+C:\Users\90535\Desktop\Yeni klasör (5)\DataBase\bin\Debug\netcoreapp3.1\Core.dll
+C:\Users\90535\Desktop\Yeni klasör (5)\DataBase\bin\Debug\netcoreapp3.1\Entities.dll
+C:\Users\90535\Desktop\Yeni klasör (5)\DataBase\bin\Debug\netcoreapp3.1\Core.pdb
+C:\Users\90535\Desktop\Yeni klasör (5)\DataBase\bin\Debug\netcoreapp3.1\Entities.pdb
+C:\Users\90535\Desktop\Yeni klasör (5)\DataBase\obj\Debug\netcoreapp3.1\DataAccess.csproj.AssemblyReference.cache
+C:\Users\90535\Desktop\Yeni klasör (5)\DataBase\obj\Debug\netcoreapp3.1\DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\90535\Desktop\Yeni klasör (5)\DataBase\obj\Debug\netcoreapp3.1\DataAccess.AssemblyInfoInputs.cache
+C:\Users\90535\Desktop\Yeni klasör (5)\DataBase\obj\Debug\netcoreapp3.1\DataAccess.AssemblyInfo.cs
+C:\Users\90535\Desktop\Yeni klasör (5)\DataBase\obj\Debug\netcoreapp3.1\DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\90535\Desktop\Yeni klasör (5)\DataBase\obj\Debug\netcoreapp3.1\DataAccess.csproj.CopyComplete
+C:\Users\90535\Desktop\Yeni klasör (5)\DataBase\obj\Debug\netcoreapp3.1\DataAccess.dll
+C:\Users\90535\Desktop\Yeni klasör (5)\DataBase\obj\Debug\netcoreapp3.1\DataAccess.pdb
+C:\Users\90535\Desktop\Yeni klasör (5)\DataBase\obj\Debug\netcoreapp3.1\DataAccess.genruntimeconfig.cache

@@ -1,0 +1,124 @@
+﻿@model TeamListViewModel
+@{ var Aylar = new string[] { "Ocak", "Subat", "Mart", "Nisan", "Mayıs", "Haziran", "Temmuz", "Ağustos", "Eylül", "Ekim", "Kasım", "Aralık" }; }
+
+<style>
+    .tooltip-main {
+        width: 15px;
+        height: 15px;
+        border-radius: 50%;
+        font-weight: 700;
+        background: #f3f3f3;
+        border: 1px solid #737373;
+        color: #737373;
+        margin: 4px 121px 0 5px;
+        float: right;
+        text-align: left !important;
+        box-shadow: rgba(255, 255, 255, 0.2) 0px 0px 0px 1px inset, rgba(0, 0, 0, 0.9) 0px 0px 0px 1px;
+    }
+  
+    .tooltip-qm {
+        float: left;
+        margin: -2px 0px 3px 4px;
+        font-size: 12px;
+    }
+
+    .tooltip-inner {
+        max-width: 236px;
+        height: 76px;
+        font-size: 12px;
+        padding: 10px 15px 10px 20px;
+        background: #FFFFFF;
+        color: rgba(0, 0, 0, .7);
+        border: 1px solid #737373;
+        text-align: left;
+    }
+
+    .tooltip.show {
+        opacity: 1;
+    }
+
+    .bs-tooltip-auto[x-placement^=bottom] .arrow::before,
+    .bs-tooltip-bottom .arrow::before {
+        border-bottom-color: #f00;
+        /* Red */
+    }
+    }
+</style>
+<div class=" row">
+    <div class="col-2">
+        <div class="row">
+            <div class="col-12" style="position: -webkit-sticky; position: sticky; top: 0; padding: 5px; background-color: #ffb300; box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;"> TakımAdi</div>
+            @foreach (var team in Model.Team)
+            {<div class="col-12" style="border: 1px solid #0F0605;">@team.Name </div>
+        }
+
+        </div>
+    </div>
+    <div class="col-10">
+        <div class="row" style="position: -webkit-sticky; position: sticky; top: 0; padding: 5px; background-color: #ffb300; box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px; ">
+            @foreach (var item in Aylar)
+            {
+                <div class="col-1" style="top: 0; background-color: #ffb300; box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px; ">@item </div>
+            }
+
+
+        </div>
+        <div class="row">
+            @foreach (var item in Model.geciciDegerler)
+            {
+                var data2 = item.Values;
+                @foreach (var x in data2)
+                {
+                    if (x > 75)
+                    {
+          
+                       <div class="col-1" style="border: 1px solid #ff4b4b;; background-color: red">@x </div>
+                    }
+
+                    else if (x > 50)
+                    {
+                        <div class="col-1" style="border: 1px solid #0F0605; background-color: #ffa647">@x </div>
+                    }
+                    else if (x > 25)
+                    {
+                        <div class="col-1" style="border: 1px solid #0F0605; background-color: #ffff82">@x </div>
+                    }
+                    else
+                    {
+                        <div class="col-1" style="border: 1px solid #0F0605; background-color: #8aff44">@x </div>
+                    }
+
+                    //         <div class="col-1" style="border: 1px solid #0F0605;">@x </div>
+
+                }
+
+            }
+        </div>
+    </div>
+</div>
+
+
+
+<script>
+    $(function () {
+        $('[data-toggle="tooltip"]').tooltip({
+            trigger: 'hover',
+            delay: { show: 10, hide: 10 },
+
+        });
+    });
+
+
+
+    const numb = document.querySelector(".number");
+    let counter = 0;
+    setInterval(() => {
+        if (counter == 100) {
+            clearInterval();
+        } else {
+            counter += 1;
+            numb.textContent = counter + "%";
+        }
+    }, 80);
+
+</script>

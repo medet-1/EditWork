@@ -1,0 +1,180 @@
+﻿@model TeamListViewModel
+
+@{
+
+    Layout = "_Layout";
+}
+<style>
+    :focus {
+        background: #f0e68c;
+    }
+
+    body {
+        background-color: #ffb300;
+        font-family: 'Ubuntu', sans-serif;
+    }
+
+    .submit {
+        cursor: pointer;
+        border-radius: 5em;
+        color: #fff;
+        background: linear-gradient(to right, #8c702f, #E040FB);
+        border: 0;
+        padding-left: 40px;
+        padding-right: 40px;
+        padding-bottom: 10px;
+        padding-top: 10px;
+        font-family: 'Ubuntu', sans-serif;
+        margin-left: 35%;
+        font-size: 13px;
+        box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.04);
+    }
+
+    .main {
+        background-color: #FFFFFF;
+        width: 400px;
+        height: 400px;
+        margin: 7em auto;
+        border-radius: 1.5em;
+        box-shadow: 0px 11px 35px 2px rgba(0, 0, 0, 0.14);
+    }
+
+    .renk {
+        background-color: rgb(0 123 255 / 25%);
+        color: black;
+        text-align: center;
+    }
+</style>
+<div class="main">
+    <form asp-controller="WorkDetail" enctype="multipart/form-data" asp-action="WorkDetail" method="post">
+
+
+        <div class="row">
+            <div class="col-1"> </div>
+            <div class="col-5 ">
+                <label for="WorkID" class="renk">- - - - - - ID- - - - - - - -</label>
+                <input id="WorkID" name="WorkID" class="form-control" placeholder="ID" />
+            </div>
+
+            <div class=" col-5">
+                <label for="Name" class="renk">- - - - - -İş Adı- - - - - - </label>
+                <input id="Name" name="Name" class="form-control" placeholder="İş Adı" />
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-1"> </div>
+            <div class="col-4">
+                <label for="TeamID" class="renk">- - Takım Adı - -</label>
+                <select name="TeamID" class="form-control kt-select2 w-100" id="kt_form_year">
+                    <option></option>
+                    @foreach (var item in Model.Team)
+                    {
+
+                        <option value="@item.ID"> @item.Name </option>
+                    }
+                </select>
+
+            </div>
+
+            <div class="col-3">
+                <label for="StatuID" class="renk">- - Statü- - </label>
+
+
+                <select name="StatuID" class="form-control kt-select2 w-100" id="kt_form_year">
+                    <option></option>
+                    @foreach (var item in Html.GetEnumSelectList<Core.Enum.StatuEnum>())
+                    {
+                        <option value="@item.Value"> @item.Text </option>
+                    }
+
+                </select>
+
+            </div>
+
+            <div class="col-3">
+                <label for="StatuID" class="renk">- - İş Tipi- - </label>
+
+
+                <select name="WorkType" class="form-control kt-select2 w-100" id="kt_form_year">
+                    <option></option>
+                    @foreach (var item in Html.GetEnumSelectList<Core.Enum.WorkType>())
+                    {
+                        <option value="@item.Value"> @item.Text </option>
+                    }
+
+                </select>
+
+            </div>
+
+        </div>
+        <div class="row">
+            <div class="col-1"> </div>
+            <div class="col-10">
+                <div class="form-group">
+                    <label for="Effort" class="renk">- - - -  - - - - - - - - - - - Efor - - - - - - - - - - - - - - -</label>
+                    <input id="Effort" name="Effort" class="form-control" placeholder="Efor" />
+                </div>
+            </div>
+
+            <div class="col-1"> </div>
+        </div>
+
+
+
+
+        <div class="row">
+            <div class="col-1">
+
+            </div>
+            <div class="col-5">
+                <label for="Beginning" class="renk">- Başlama Zamanı - </label>
+                <input type="date" id="Beginning" name="Beginning" class="form-control" placeholder="Başlama Zamanı" />
+            </div>
+
+            <div class="col-5">
+                <label for="Finish" class="renk">- - Bitirme Zamanı - -</label>
+                <input type="date" id="Finish" name="Finish" class="form-control" placeholder="Bitirme Zamanı" />
+            </div>
+            <div class="col-1"></div>
+
+        </div>
+        <br />
+        <div>
+
+
+
+        </div>
+
+        <div class="row">
+            <div class="col-3">
+
+            </div>
+            <div class="col-5">
+                <input type="submit" id="Kaydedildi" value="Save" class="submit" />
+            </div>
+            <div class="col-2">
+
+            </div>
+
+        </div>
+
+
+    </form>
+</div>
+<link href="C:\Users\90535\.nuget\packages\bootstrap\5.1.2\contentFiles\any\any\wwwroot\css\bootstrap.min.css" rel="stylesheet" />
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+<script src="~/lib/jquery/dist/jquery.min.js"></script>
+
+
+<script>
+    $('#Kaydedildi').click(function () {
+        swal("Yeni iş Kaydedildi!");
+    });
+</script>
+
+
+
+
+
+

@@ -1,0 +1,195 @@
+﻿@model WorkListViewModel
+@{ var Aylar = new string[] { "Ocak", "Subat", "Mart", "Nisan", "Mayıs", "Haziran", "Temmuz", "Ağustos", "Eylül", "Ekim", "Kasım", "Aralık" }; }
+
+<style>
+
+    :focus {
+        background: #f0e68c;
+    }
+
+    table.table.table-responsive > tbody {
+        line-height: 0.6;
+    }
+
+    .table.qqq {
+        max-height: 70vh;
+        box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 2px 0px 0px 1px;
+    }
+
+    tr.sticky {
+        position: -webkit-sticky;
+        position: sticky;
+        top: 0;
+        padding: 5px;
+        background-color: #ffb300;
+        border: 2px solid #0F0605;
+    }
+
+    .tooltip-main {
+        width: 15px;
+        height: 15px;
+        border-radius: 50%;
+        font-weight: 700;
+        background: #f3f3f3;
+        border: 1px solid #737373;
+        color: #737373;
+        margin: 4px 121px 0 5px;
+        float: right;
+        text-align: left !important;
+        box-shadow: rgba(255, 255, 255, 0.2) 0px 0px 0px 1px inset, rgba(0, 0, 0, 0.9) 0px 0px 0px 1px;
+    }
+
+    .tooltip-qm {
+        float: left;
+        margin: -2px 0px 3px 4px;
+        font-size: 12px;
+    }
+
+    .tooltip-inner {
+        max-width: 236px;
+        height: 76px;
+        font-size: 12px;
+        padding: 10px 15px 10px 20px;
+        background: #FFFFFF;
+        color: rgba(0, 0, 0, .7);
+        border: 1px solid #737373;
+        text-align: left;
+    }
+
+    .tooltip.show {
+        opacity: 1;
+    }
+
+    .bs-tooltip-auto[x-placement^=bottom] .arrow::before,
+    .bs-tooltip-bottom .arrow::before {
+        border-bottom-color: #f00;
+        /* Red */
+    }
+
+    .stx {
+        display: flex;
+        justify-content: space-around;
+    }
+</style>
+
+<div class="row">
+    <div class="col-12">
+        <table class="qqq table table-responsive">
+
+            <thead>
+
+                <tr class="sticky">
+                    <td>
+                        Değiştir
+                    </td>
+                    <td>WorkID</td>
+                    <td>Name</td>
+                    <td>Efor</td>
+                    <td>Takım Adı</td>
+                    <td>StatuID</td>
+                    @foreach (string item in Aylar)
+                    {
+
+                        <td>@item </td>
+}
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var work in Model.Teams)
+                {
+
+                    <tr tabindex="3">
+
+
+                        <td>
+                            <a href="../WorkModification/Update/@work.ID" class="btn btn-success form-control">Değiştir</a>
+                        </td>
+                        <td>@work.WorkID</td>
+                        <td>@work.Name</td>
+                        <td>@work.Effort</td>
+                        <td>@work.TeamName</td>
+                        <td>@work.StatuID</td>
+
+                        <td style="width:2400px" colspan="12">
+
+                            @if (work.Finish.Year > work.Beginning.Year)
+
+                            {
+
+                                <div class="progress">
+
+                                    @for (int i = 0; i < 365; i++)
+                                    {
+                                        var a = work.Beginning.DayOfYear;
+                                        if (a > i)
+                                        {
+                                            <div class="progress-bar progress-bar-animated bg-light" role="progressbar" aria-valuenow="3" aria-valuemin="0" aria-valuemax="9" style="width: 80%"></div> }
+
+                                        else
+                                        {
+                                            <div class="progress-bar progress-bar-striped bg-warning" role="progressbar" data-placement="top" data-toggle="tooltip" title="@work.Beginning.ToString("dd.MM.yyyy") - @work.Finish.ToString("dd.MM.yyyy")" aria-valuenow="3" aria-valuemin="9" aria-valuemax="16" style="width: 80%"> </div>}
+                                    }
+
+                                </div> }
+
+                            else if (work.Beginning.Year == work.Finish.Year)
+                            {
+                                <div class="progress">
+
+                                    @for (int i = 0; i < 365; i++)
+                                    {
+                                        var a = work.Beginning.DayOfYear;
+                                        var b = work.Finish.DayOfYear;
+                                        if (a > i)
+                                        {
+
+                                            <div class="progress-bar progress-bar-animated bg-light" role="progressbar" aria-valuenow="3" aria-valuemin="0" aria-valuemax="9" style="width: 100%"></div> }
+                                        else if (b <= i)
+                                        {
+                                            <div class="progress-bar progress-bar-animated bg-light" role="progressbar" aria-valuenow="3" aria-valuemin="0" aria-valuemax="9" style="width: 100%"></div> }
+                                        else
+                                        {
+                                            <div class="progress-bar progress-bar-striped bg-warning" role="progressbar" data-placement="top" data-toggle="tooltip" title="@work.Beginning.ToString("dd.MM.yyyy") - @work.Finish.ToString("dd.MM.yyyy")" aria-valuenow="3" aria-valuemin="9" aria-valuemax="16" style="width: 100%"> </div>}
+                                    }
+
+                                </div>}
+                        </td>
+                    </tr>
+}
+            </tbody>
+        </table>
+    </div>
+
+</div>
+
+
+
+
+<div class=" col-12">
+
+    @await Component.InvokeAsync(name: "WorkList")
+</div>
+
+<script>
+    $(function () {
+        $('[data-toggle="tooltip"]').tooltip({
+            trigger: 'hover',
+            delay: { show: 10, hide: 10 },
+
+        });
+    });
+
+
+
+    const numb = document.querySelector(".number");
+    let counter = 0;
+    setInterval(() => {
+        if (counter == 100) {
+            clearInterval();
+        } else {
+            counter += 1;
+            numb.textContent = counter + "%";
+        }
+    }, 80);
+
+</script>

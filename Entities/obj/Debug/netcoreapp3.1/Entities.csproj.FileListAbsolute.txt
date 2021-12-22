@@ -1,0 +1,64 @@
+C:\Users\90535\source\repos\17.11\Entities\bin\Debug\netcoreapp3.1\Entities.deps.json
+C:\Users\90535\source\repos\17.11\Entities\bin\Debug\netcoreapp3.1\Entities.runtimeconfig.json
+C:\Users\90535\source\repos\17.11\Entities\bin\Debug\netcoreapp3.1\Entities.runtimeconfig.dev.json
+C:\Users\90535\source\repos\17.11\Entities\bin\Debug\netcoreapp3.1\Entities.dll
+C:\Users\90535\source\repos\17.11\Entities\bin\Debug\netcoreapp3.1\Entities.pdb
+C:\Users\90535\source\repos\17.11\Entities\bin\Debug\netcoreapp3.1\Core.dll
+C:\Users\90535\source\repos\17.11\Entities\bin\Debug\netcoreapp3.1\Core.pdb
+C:\Users\90535\source\repos\17.11\Entities\obj\Debug\netcoreapp3.1\Entities.csproj.AssemblyReference.cache
+C:\Users\90535\source\repos\17.11\Entities\obj\Debug\netcoreapp3.1\Entities.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\90535\source\repos\17.11\Entities\obj\Debug\netcoreapp3.1\Entities.AssemblyInfoInputs.cache
+C:\Users\90535\source\repos\17.11\Entities\obj\Debug\netcoreapp3.1\Entities.AssemblyInfo.cs
+C:\Users\90535\source\repos\17.11\Entities\obj\Debug\netcoreapp3.1\Entities.csproj.CoreCompileInputs.cache
+C:\Users\90535\source\repos\17.11\Entities\obj\Debug\netcoreapp3.1\Entities.dll
+C:\Users\90535\source\repos\17.11\Entities\obj\Debug\netcoreapp3.1\Entities.pdb
+C:\Users\90535\source\repos\17.11\Entities\obj\Debug\netcoreapp3.1\Entities.genruntimeconfig.cache
+C:\Users\90535\source\repos\17.11\Entities\obj\Debug\netcoreapp3.1\Entities.csproj.CopyComplete
+C:\Users\90535\Desktop\17.11\Entities\bin\Debug\netcoreapp3.1\Entities.deps.json
+C:\Users\90535\Desktop\17.11\Entities\bin\Debug\netcoreapp3.1\Entities.runtimeconfig.json
+C:\Users\90535\Desktop\17.11\Entities\bin\Debug\netcoreapp3.1\Entities.runtimeconfig.dev.json
+C:\Users\90535\Desktop\17.11\Entities\bin\Debug\netcoreapp3.1\Entities.dll
+C:\Users\90535\Desktop\17.11\Entities\bin\Debug\netcoreapp3.1\Entities.pdb
+C:\Users\90535\Desktop\17.11\Entities\bin\Debug\netcoreapp3.1\Core.dll
+C:\Users\90535\Desktop\17.11\Entities\bin\Debug\netcoreapp3.1\Core.pdb
+C:\Users\90535\Desktop\17.11\Entities\obj\Debug\netcoreapp3.1\Entities.csproj.AssemblyReference.cache
+C:\Users\90535\Desktop\17.11\Entities\obj\Debug\netcoreapp3.1\Entities.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\90535\Desktop\17.11\Entities\obj\Debug\netcoreapp3.1\Entities.AssemblyInfoInputs.cache
+C:\Users\90535\Desktop\17.11\Entities\obj\Debug\netcoreapp3.1\Entities.AssemblyInfo.cs
+C:\Users\90535\Desktop\17.11\Entities\obj\Debug\netcoreapp3.1\Entities.csproj.CoreCompileInputs.cache
+C:\Users\90535\Desktop\17.11\Entities\obj\Debug\netcoreapp3.1\Entities.dll
+C:\Users\90535\Desktop\17.11\Entities\obj\Debug\netcoreapp3.1\Entities.pdb
+C:\Users\90535\Desktop\17.11\Entities\obj\Debug\netcoreapp3.1\Entities.genruntimeconfig.cache
+C:\Users\90535\Desktop\17.11\Entities\obj\Debug\netcoreapp3.1\Entities.csproj.CopyComplete
+C:\Users\90535\Desktop\Work-main\Entities\bin\Debug\netcoreapp3.1\Entities.deps.json
+C:\Users\90535\Desktop\Work-main\Entities\bin\Debug\netcoreapp3.1\Entities.runtimeconfig.json
+C:\Users\90535\Desktop\Work-main\Entities\bin\Debug\netcoreapp3.1\Entities.runtimeconfig.dev.json
+C:\Users\90535\Desktop\Work-main\Entities\bin\Debug\netcoreapp3.1\Entities.dll
+C:\Users\90535\Desktop\Work-main\Entities\bin\Debug\netcoreapp3.1\Entities.pdb
+C:\Users\90535\Desktop\Work-main\Entities\bin\Debug\netcoreapp3.1\Core.dll
+C:\Users\90535\Desktop\Work-main\Entities\bin\Debug\netcoreapp3.1\Core.pdb
+C:\Users\90535\Desktop\Work-main\Entities\obj\Debug\netcoreapp3.1\Entities.csproj.AssemblyReference.cache
+C:\Users\90535\Desktop\Work-main\Entities\obj\Debug\netcoreapp3.1\Entities.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\90535\Desktop\Work-main\Entities\obj\Debug\netcoreapp3.1\Entities.AssemblyInfoInputs.cache
+C:\Users\90535\Desktop\Work-main\Entities\obj\Debug\netcoreapp3.1\Entities.AssemblyInfo.cs
+C:\Users\90535\Desktop\Work-main\Entities\obj\Debug\netcoreapp3.1\Entities.csproj.CoreCompileInputs.cache
+C:\Users\90535\Desktop\Work-main\Entities\obj\Debug\netcoreapp3.1\Entities.csproj.CopyComplete
+C:\Users\90535\Desktop\Work-main\Entities\obj\Debug\netcoreapp3.1\Entities.dll
+C:\Users\90535\Desktop\Work-main\Entities\obj\Debug\netcoreapp3.1\Entities.pdb
+C:\Users\90535\Desktop\Work-main\Entities\obj\Debug\netcoreapp3.1\Entities.genruntimeconfig.cache
+C:\Users\90535\Desktop\Yeni klasör (5)\Entities\bin\Debug\netcoreapp3.1\Entities.deps.json
+C:\Users\90535\Desktop\Yeni klasör (5)\Entities\bin\Debug\netcoreapp3.1\Entities.runtimeconfig.json
+C:\Users\90535\Desktop\Yeni klasör (5)\Entities\bin\Debug\netcoreapp3.1\Entities.runtimeconfig.dev.json
+C:\Users\90535\Desktop\Yeni klasör (5)\Entities\bin\Debug\netcoreapp3.1\Entities.dll
+C:\Users\90535\Desktop\Yeni klasör (5)\Entities\bin\Debug\netcoreapp3.1\Entities.pdb
+C:\Users\90535\Desktop\Yeni klasör (5)\Entities\bin\Debug\netcoreapp3.1\Core.dll
+C:\Users\90535\Desktop\Yeni klasör (5)\Entities\bin\Debug\netcoreapp3.1\Core.pdb
+C:\Users\90535\Desktop\Yeni klasör (5)\Entities\obj\Debug\netcoreapp3.1\Entities.csproj.AssemblyReference.cache
+C:\Users\90535\Desktop\Yeni klasör (5)\Entities\obj\Debug\netcoreapp3.1\Entities.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\90535\Desktop\Yeni klasör (5)\Entities\obj\Debug\netcoreapp3.1\Entities.AssemblyInfoInputs.cache
+C:\Users\90535\Desktop\Yeni klasör (5)\Entities\obj\Debug\netcoreapp3.1\Entities.AssemblyInfo.cs
+C:\Users\90535\Desktop\Yeni klasör (5)\Entities\obj\Debug\netcoreapp3.1\Entities.csproj.CoreCompileInputs.cache
+C:\Users\90535\Desktop\Yeni klasör (5)\Entities\obj\Debug\netcoreapp3.1\Entities.csproj.CopyComplete
+C:\Users\90535\Desktop\Yeni klasör (5)\Entities\obj\Debug\netcoreapp3.1\Entities.dll
+C:\Users\90535\Desktop\Yeni klasör (5)\Entities\obj\Debug\netcoreapp3.1\Entities.pdb
+C:\Users\90535\Desktop\Yeni klasör (5)\Entities\obj\Debug\netcoreapp3.1\Entities.genruntimeconfig.cache

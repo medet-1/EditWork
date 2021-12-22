@@ -1,0 +1,97 @@
+﻿@using MvcWebUI.Models
+@model WorkUpdateModel
+<h1>Düzenleme Sayfası</h1>
+<hr />
+<form method="post" asp-controller="WorkModification" asp-action="Update" enctype="multipart/form-data">
+    <div class="row">
+        <div class="col-md-8">
+            <input type="hidden" name="Id" value="@Model.ID" />
+            <div class="mb-3">
+                <label asp-for="Name"></label>
+                <input asp-for="Name" class="form-control" value="@Model.Name" />
+                <span asp-validation-for="Name" class="text-danger"></span>
+            </div>
+            <div class="mb-3">
+                <label asp-for="Effort"></label>
+                <input asp-for="Effort" class="form-control" value="@Model.Effort" />
+                <span asp-validation-for="Effort" class="text-danger"></span>
+            </div>
+
+            <div>
+                <label for="StatuID" class="renk">- - Statü- - </label>
+
+
+                <select name="StatuID" class="form-control kt-select2 w-100" id="kt_form_year">
+                    <option>@Model.StatuID</option>
+                    @foreach (var item in Html.GetEnumSelectList<Core.Enum.StatuEnum>())
+                    {
+                        <option value="@item.Value"> @item.Text </option>
+                    }
+
+                </select>
+
+            </div>
+            <div>
+                <label for="StatuID" class="renk">- - İş Tipi- - </label>
+
+
+                <select name="WorkType" class="form-control kt-select2 w-100" id="kt_form_year">
+                    <option>@Model.WorkType</option>
+                    @foreach (var item in Html.GetEnumSelectList<Core.Enum.WorkType>())
+                    {
+                        <option value="@item.Value"> @item.Text </option>
+                    }
+
+                </select>
+
+            </div>
+
+
+            <div class="mb-3">
+                <label asp-for="Beginning"></label>
+                <input type="datetime" asp-for="Beginning" class="form-control" value="@Model.Beginning" />
+                <span asp-validation-for="Beginning" class="text-danger"></span>
+            </div>
+            <div class="mb-3">
+                <label asp-for="Finish"></label>
+                <input type="datetime" asp-for="Finish" class="form-control" value="@Model.Finish" />
+                <span asp-validation-for="Finish" class="text-danger"></span>
+            </div>
+
+            <div class="mb-3">
+                <label asp-for="Deleted"></label>
+                <input type="checkbox" asp-for="Deleted" class="form-control" value="@Model.Deleted" />
+                <span asp-validation-for="Deleted" class="text-danger"></span>
+            </div>
+
+
+
+
+            <button id="guncelle" type="submit" class="btn btn-primary">Submit</button>
+        </div>
+        <div class="col-md-4">
+
+        </div>
+        <div class="col-md-4">
+            
+            <span asp-validation-for="TeamId" class="text-danger"></span>
+        </div>
+    </div>
+
+</form>
+
+<link href="C:\Users\90535\.nuget\packages\bootstrap\5.1.2\contentFiles\any\any\wwwroot\css\bootstrap.min.css" rel="stylesheet" />
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+<script src="~/lib/jquery/dist/jquery.min.js"></script>
+
+
+<script>
+    $('#guncelle').click(function () {
+        swal({
+            title: "Güncelleme Tamamlandı!",
+            text: "Ana Sayfa Yönlendiriliyorsunuz!",
+            icon: "success",
+            button: "Tamam",
+        });
+    });
+</script>

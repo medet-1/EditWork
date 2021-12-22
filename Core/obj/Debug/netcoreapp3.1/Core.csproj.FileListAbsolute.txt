@@ -1,0 +1,51 @@
+C:\Users\90535\source\repos\17.11\Core\bin\Debug\netcoreapp3.1\Core.deps.json
+C:\Users\90535\source\repos\17.11\Core\bin\Debug\netcoreapp3.1\Core.runtimeconfig.json
+C:\Users\90535\source\repos\17.11\Core\bin\Debug\netcoreapp3.1\Core.runtimeconfig.dev.json
+C:\Users\90535\source\repos\17.11\Core\bin\Debug\netcoreapp3.1\Core.dll
+C:\Users\90535\source\repos\17.11\Core\bin\Debug\netcoreapp3.1\Core.pdb
+C:\Users\90535\source\repos\17.11\Core\obj\Debug\netcoreapp3.1\Core.csproj.AssemblyReference.cache
+C:\Users\90535\source\repos\17.11\Core\obj\Debug\netcoreapp3.1\Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\90535\source\repos\17.11\Core\obj\Debug\netcoreapp3.1\Core.AssemblyInfoInputs.cache
+C:\Users\90535\source\repos\17.11\Core\obj\Debug\netcoreapp3.1\Core.AssemblyInfo.cs
+C:\Users\90535\source\repos\17.11\Core\obj\Debug\netcoreapp3.1\Core.csproj.CoreCompileInputs.cache
+C:\Users\90535\source\repos\17.11\Core\obj\Debug\netcoreapp3.1\Core.dll
+C:\Users\90535\source\repos\17.11\Core\obj\Debug\netcoreapp3.1\Core.pdb
+C:\Users\90535\source\repos\17.11\Core\obj\Debug\netcoreapp3.1\Core.genruntimeconfig.cache
+C:\Users\90535\Desktop\17.11\Core\bin\Debug\netcoreapp3.1\Core.deps.json
+C:\Users\90535\Desktop\17.11\Core\bin\Debug\netcoreapp3.1\Core.runtimeconfig.json
+C:\Users\90535\Desktop\17.11\Core\bin\Debug\netcoreapp3.1\Core.runtimeconfig.dev.json
+C:\Users\90535\Desktop\17.11\Core\bin\Debug\netcoreapp3.1\Core.dll
+C:\Users\90535\Desktop\17.11\Core\bin\Debug\netcoreapp3.1\Core.pdb
+C:\Users\90535\Desktop\17.11\Core\obj\Debug\netcoreapp3.1\Core.csproj.AssemblyReference.cache
+C:\Users\90535\Desktop\17.11\Core\obj\Debug\netcoreapp3.1\Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\90535\Desktop\17.11\Core\obj\Debug\netcoreapp3.1\Core.AssemblyInfoInputs.cache
+C:\Users\90535\Desktop\17.11\Core\obj\Debug\netcoreapp3.1\Core.AssemblyInfo.cs
+C:\Users\90535\Desktop\17.11\Core\obj\Debug\netcoreapp3.1\Core.csproj.CoreCompileInputs.cache
+C:\Users\90535\Desktop\17.11\Core\obj\Debug\netcoreapp3.1\Core.dll
+C:\Users\90535\Desktop\17.11\Core\obj\Debug\netcoreapp3.1\Core.pdb
+C:\Users\90535\Desktop\17.11\Core\obj\Debug\netcoreapp3.1\Core.genruntimeconfig.cache
+C:\Users\90535\Desktop\Work-main\Core\bin\Debug\netcoreapp3.1\Core.deps.json
+C:\Users\90535\Desktop\Work-main\Core\bin\Debug\netcoreapp3.1\Core.runtimeconfig.json
+C:\Users\90535\Desktop\Work-main\Core\bin\Debug\netcoreapp3.1\Core.runtimeconfig.dev.json
+C:\Users\90535\Desktop\Work-main\Core\bin\Debug\netcoreapp3.1\Core.dll
+C:\Users\90535\Desktop\Work-main\Core\bin\Debug\netcoreapp3.1\Core.pdb
+C:\Users\90535\Desktop\Work-main\Core\obj\Debug\netcoreapp3.1\Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\90535\Desktop\Work-main\Core\obj\Debug\netcoreapp3.1\Core.AssemblyInfoInputs.cache
+C:\Users\90535\Desktop\Work-main\Core\obj\Debug\netcoreapp3.1\Core.AssemblyInfo.cs
+C:\Users\90535\Desktop\Work-main\Core\obj\Debug\netcoreapp3.1\Core.csproj.CoreCompileInputs.cache
+C:\Users\90535\Desktop\Work-main\Core\obj\Debug\netcoreapp3.1\Core.dll
+C:\Users\90535\Desktop\Work-main\Core\obj\Debug\netcoreapp3.1\Core.pdb
+C:\Users\90535\Desktop\Work-main\Core\obj\Debug\netcoreapp3.1\Core.genruntimeconfig.cache
+C:\Users\90535\Desktop\Yeni klasör (5)\Core\bin\Debug\netcoreapp3.1\Core.deps.json
+C:\Users\90535\Desktop\Yeni klasör (5)\Core\bin\Debug\netcoreapp3.1\Core.runtimeconfig.json
+C:\Users\90535\Desktop\Yeni klasör (5)\Core\bin\Debug\netcoreapp3.1\Core.runtimeconfig.dev.json
+C:\Users\90535\Desktop\Yeni klasör (5)\Core\bin\Debug\netcoreapp3.1\Core.dll
+C:\Users\90535\Desktop\Yeni klasör (5)\Core\bin\Debug\netcoreapp3.1\Core.pdb
+C:\Users\90535\Desktop\Yeni klasör (5)\Core\obj\Debug\netcoreapp3.1\Core.csproj.AssemblyReference.cache
+C:\Users\90535\Desktop\Yeni klasör (5)\Core\obj\Debug\netcoreapp3.1\Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\90535\Desktop\Yeni klasör (5)\Core\obj\Debug\netcoreapp3.1\Core.AssemblyInfoInputs.cache
+C:\Users\90535\Desktop\Yeni klasör (5)\Core\obj\Debug\netcoreapp3.1\Core.AssemblyInfo.cs
+C:\Users\90535\Desktop\Yeni klasör (5)\Core\obj\Debug\netcoreapp3.1\Core.csproj.CoreCompileInputs.cache
+C:\Users\90535\Desktop\Yeni klasör (5)\Core\obj\Debug\netcoreapp3.1\Core.dll
+C:\Users\90535\Desktop\Yeni klasör (5)\Core\obj\Debug\netcoreapp3.1\Core.pdb
+C:\Users\90535\Desktop\Yeni klasör (5)\Core\obj\Debug\netcoreapp3.1\Core.genruntimeconfig.cache
