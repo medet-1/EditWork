@@ -43,8 +43,8 @@ namespace McvWebUI.ViewComponents
             List<Dictionary<int,double>> GeciciDegerler = new List<Dictionary<int, double>>();
 
             int x = 0, z = 0, y = 0;
-            double basla = 0, bitis = 0, ara = 100;
-
+            double basla = 0, bitis = 0;
+            double ara;
         
 
             foreach (var team in data)
@@ -54,10 +54,7 @@ namespace McvWebUI.ViewComponents
                 //{
 
 
-                //    //TeamName = data.Where(x => x.ID == item.TeamID).FirstOrDefault().Name,
-                //    Busy = dd
-
-                //};
+          
 
                 var liste = this._workService.GetAll().Where(x => x.TeamID == team.ID && x.Deleted==false).OrderBy(x => x.Beginning);
 
@@ -69,30 +66,36 @@ namespace McvWebUI.ViewComponents
                                
                 foreach (var teamOfWork in liste.OrderBy(x => x.WorkID))
                 {
-
-                    //var datass = teamOfWork;
+                    double HerBirIsIcinPartEfor = 0;
+                    int zamanFarki;
+                    double efor;
+                    zamanFarki = teamOfWork.Finish.DayOfYear - teamOfWork.Beginning.DayOfYear;
+                    efor = teamOfWork.Effort;
+                    HerBirIsIcinPartEfor = efor/zamanFarki;
+                    
+                    
 
                     if (teamOfWork.Beginning.Year == teamOfWork.Finish.Year && teamOfWork.Beginning.Month == teamOfWork.Finish.Month)
                     {
-                        basla = (teamOfWork.Finish.Day - teamOfWork.Beginning.Day) * 3.3;
+                        basla = (teamOfWork.Finish.Day - teamOfWork.Beginning.Day)*HerBirIsIcinPartEfor;
                         x = teamOfWork.Beginning.Month;
-                    //    x = decimal.Round(x, 2);
+                    
                         llist.Add(new AyGunBusyModel() { Year = teamOfWork.Beginning, Ay = x, Busy = basla });
 
                     }
                     else if (teamOfWork.Beginning.Year == teamOfWork.Finish.Year && teamOfWork.Finish.Month > teamOfWork.Beginning.Month)
                     {
-                        basla = (30 - teamOfWork.Beginning.Day) * 3.3;
+                        basla = (30 - teamOfWork.Beginning.Day) * HerBirIsIcinPartEfor;
                         x = teamOfWork.Beginning.Month;
                         llist.Add(new AyGunBusyModel() { Year = teamOfWork.Beginning, Ay = x, Busy = basla });
 
                         for (int i = teamOfWork.Beginning.Month + 1; i < teamOfWork.Finish.Month; i++)
                         {
-                            ara = 100;
+                            
 
-                            llist.Add(new AyGunBusyModel() { Year = teamOfWork.Beginning, Ay = i, Busy = ara });
+                            llist.Add(new AyGunBusyModel() { Year = teamOfWork.Beginning, Ay = i, Busy = HerBirIsIcinPartEfor*30 });
                         }
-                        bitis = (teamOfWork.Finish.Day) * 3.3;
+                        bitis = (teamOfWork.Finish.Day) * HerBirIsIcinPartEfor;
                         z = teamOfWork.Finish.Month;
 
                         llist.Add(new AyGunBusyModel() { Year = teamOfWork.Beginning, Ay = z, Busy = bitis });
@@ -158,11 +161,26 @@ namespace McvWebUI.ViewComponents
 
                 Dictionary<int, double> Gecici = new Dictionary<int, double>();
                 var dadadadad = llist;
-                
+                var test = llist;
                 for (int i = 1; i <13; i++)
-                { 
-                    var daxxta = llist.Where(x => x.Ay == i && x.Year.Year==DateTime.Now.Year).OrderByDescending(x => x.Busy).FirstOrDefault();
-                    Gecici.Add(daxxta.Ay, daxxta.Busy);
+                {
+  //                  var daxxta = llist.Where(x => x.Ay == i && x.Year.Year == DateTime.Now.Year).OrderByDescending(x => x.Busy).FirstOrDefault();
+
+                    var test3 = llist.Where(x => x.Ay == i && x.Year.Year == DateTime.Now.Year).OrderByDescending(x => x.Busy);
+                   
+                    if (test3 != null)
+                    {
+                        double toplam = 0;
+                        foreach (var item in test3)
+                        {
+                            toplam += item.Busy*3.3;
+                            
+                        }
+                        Gecici.Add(i, toplam);
+                        toplam = 0;
+
+                    }
+                       
 
                 }
                 GeciciDegerler.Add(Gecici);

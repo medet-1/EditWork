@@ -1,7 +1,16 @@
 ﻿@using MvcWebUI.Models
 @model WorkUpdateModel
+<style>
+    :focus {
+        background: #f0e68c;
+    }
+    label{
+        background-color:antiquewhite;
+    }
+</style>
 <h1>Düzenleme Sayfası</h1>
 <hr />
+
 <form method="post" asp-controller="WorkModification" asp-action="Update" enctype="multipart/form-data">
     <div class="row">
         <div class="col-md-8">
